@@ -19,6 +19,10 @@ The build should fail with
     ^
     1 error
     1 warning
+
+## Issue
+
+https://github.com/mapstruct/mapstruct/issues/2431
     
 ----
 
