@@ -1,0 +1,13 @@
+version = '1.0.0'
+
+apply plugin: 'java'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  annotationProcessor group: 'org.mapstruct',     name: 'mapstruct-processor', version: property('mapstruct.version')
+
+  compile             group: 'org.mapstruct',     name: 'mapstruct',           version: property('mapstruct.version')
+}
